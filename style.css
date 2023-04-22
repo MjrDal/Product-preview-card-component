@@ -78,7 +78,27 @@ img{
     bottom: 95px;
 }
 
+.bp{
+    width: 300px;
+    height: 50px;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.bp a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
 
 .bp-add{
     list-style-image: url(images/icon-cart.svg);
+
 }
